@@ -1,0 +1,213 @@
+.lp-nav{
+    padding-top: 20px;
+}
+
+.h-nav{
+    padding-top: 20px;
+}
+
+.h-nav-list{
+    justify-content: center;
+    
+   
+}
+.h-nav-list >ul{
+    gap: 30px;
+    align-items: center;
+   margin-left: auto;
+   
+    
+}
+
+.h-nav-btn >li > button{
+    background-color: rgb(16, 175, 6);
+    color: white;
+    padding: 8px 30px;
+    text-align: end;
+}
+
+.h-first-banner{
+ 
+    padding-bottom: 10px;
+}
+
+.h-fbanner-text{
+    padding-top: 100px;
+}
+
+.h-fbanner-text>h1{
+    font-size: 44.5px;
+}
+
+.h-fbanner-text>h1 >span{
+    color:  rgb(16, 175, 2);
+}
+
+.h-fbanner-btn >button{
+    padding: 10px 30px;
+    color: white;
+    background-color:  rgb(16, 175, 6);
+    margin-top: 10px;
+}
+
+.h-fbanner-img{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.h-fbanner-img>img{
+    height: 383px;
+width: 372;
+}
+
+.h-text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.h-def-logo>ul{
+    display:flex ;
+    justify-content: center;
+    gap: 15%;
+  
+}
+
+
+.h-def-logo>ul>li{
+    list-style: none;
+    margin-top: 50px;
+
+}
+
+.h-sec-text{
+    text-align: center  ;
+    padding-top: 50px;
+}
+
+.h-cards{
+    padding-top: 20px;
+}
+
+.h-card-one{
+    text-align: center;
+  }
+
+
+  .h-card-sec{
+      text-align: center;
+    }
+
+    
+  .h-card-thrd{
+      text-align: center;
+    }
+
+
+      .h-last-text{
+        text-align: center;
+        }
+
+        .h-last-button{
+            text-align: center;
+     }
+
+   .h-last-button>button{
+    padding: 10px 20px;
+    background-color:  rgb(23, 211, 6);
+    margin-top: 20px;
+   }
+     
+     .h-footer{
+        background-color: #263238;
+        padding: 30px;
+        margin-top: 20px;
+     }
+    
+   .h-footer-col-1>img{
+    margin-top: 30px;
+   }
+
+   .h-footer-col-1>p{
+   color: white;
+   margin-top: 20px;
+   }
+
+   .h-footer-col-2-list{
+    color: white;
+   }
+
+   .h-footer-col-2-list>ul >li{
+    list-style-type: none;
+   }
+
+
+  .h-footer-col-3-list{
+    color: white;
+   }
+
+   .h-footer-col-3-list>ul >li{
+    list-style-type: none;
+   }
+
+    .h-footer-col-4-list>h1{
+         color: white;
+    }
+
+@media only screen and (max-width:768px){
+    .h-fbanner-text{
+        text-align: center;
+
+    }
+
+    .h-card-one{
+      text-align: center;
+      margin-left: 30px;
+      padding-top: 20px;
+    }
+
+
+    .h-card-sec{
+        text-align: center;
+        margin-left:30px;
+      }
+
+      
+    .h-card-thrd{
+        text-align: center;
+        margin-left: 30px;
+      }
+
+}
+
+@media only screen and (max-width:576px){
+    .h-fbanner-img>img{
+        height: 283px;
+    width: 272px;
+    }
+
+    .h-card-one{
+        align-items: center;
+    }
+
+    .h-last-text{
+    text-align: center;
+    }
+
+    .h-footer-col-1{
+        text-align: center;
+    }
+
+    .h-footer-col-2{
+        text-align: center;
+    }
+ 
+    .h-footer-col-3{
+        text-align: center;
+    }
+
+    .h-footer-col-4{
+    text-align: center;
+    }
+}
+
+
